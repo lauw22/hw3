@@ -1,0 +1,228 @@
+/*Name: William Lau*/
+
+/*Setting Default Inputs*/
+*{
+    margin: 0;
+    padding: 0;
+    /*font-family: Century Gothic;*/
+    font-family: Century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+/*Initialize Header*/
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(http://www.estidia.eu/wp-content/uploads/2018/04/Savin-NY-Website-Background-Web.jpg); 
+    /*background-image: url(1.jpg);*/
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+/*Initialize margins*/
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+    /*margin-top: 2500px;*/
+}
+
+/*Initialize display*/
+ul li{
+    display: inline-block;
+}
+
+/*Initialize color and text*/
+ul li a{
+    text-decoration: none;
+    color: #000;
+    padding: 5px 20px;
+    border: 1px solid #000;
+    transition: 0.6s ease;
+}
+
+/*Initialize background color*/
+ul li a:hover{
+    /*background-color: #fff;*/
+    background-color: #fff;
+    color: #000;
+}
+
+/*.logo img{
+    float: auto;
+    width: 250px;
+    height: 250px;
+}*/
+
+/*Initialize logo position*/
+.logo img{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    width: 300px;
+    height: 300px;
+    transform: translate(-50%,-50%)
+}
+
+/*Initialize main width*/
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+/*Initialize title position*/
+.title{
+    position: absolute;
+    top: 5%;
+    left: 35%;
+    transform: translate(-50%,-50%)
+}
+
+/*Initialize cheescake order form position*/
+.cheesecake{
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    transform: translate(-50%,-50%)
+}
+
+/*Initialize color and font size*/
+.title h1{
+    color: #000;
+    font-size: 70px;
+}
+
+/*Initialize button and position*/
+.button{
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+/*Initialize button border*/
+.btn{
+    border: 1px solid #000;
+    padding: 10px 30px;
+    color: #000;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+/*Initialize button hover background color*/
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+/*Initialize Total Counter*/
+.Total{
+    position: absolute;
+    /*
+    top: 85%;
+    left: 15%;
+    */
+    top: 67.5%;
+    left: 55%;
+    transform: translate(-50%,-50%)
+}
+
+/*Initialize Total Counter*/
+.thankYouMessage{
+    position: absolute;
+    /*
+    top: 85%;
+    left: 15%;
+    */
+    top: 30%;
+    left: 65%;
+    transform: translate(-50%,-50%)
+}
+
+
+
+
+
+
+body{
+    background-color: tomato;
+}
+.wrapper{
+    width: 1000px;
+}
+.logo{
+    float: left;
+}
+.logo h2{
+    color: #fff;
+}
+.menu-button {
+    background-color: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #fff;
+}
+.right-menu {
+    /*
+    position: relative;
+    display: inline-block; float: right;
+    float: right;
+    */
+
+    position: absolute;
+    top: 62%;
+    left: 63%;
+    transform: translate(-50%,-50%)
+}
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-menu a:hover {
+    background-coor: #000;
+    color: #fff
+}
+.right-menu:hover .dropdown-menu {
+    display: block;
+}
+
+
+
+#topNav ul li ul{
+    max-height:250px;/* you can change as you need it */
+    overflow:auto;/* to get scroll */
+ }
+
+
+.vertical-menu {
+     width: 200px;
+     height: 150px;
+     overflow-y: auto;
+}
+
+.vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc;
+}
+
+.vertical-menu a.active {
+    background-color: #4CAF50;
+    color: white;
+}

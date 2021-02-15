@@ -1,0 +1,141 @@
+<!--Name: William Lau-->
+
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!--title of the Cheesecake order form-->
+    <title>Cheesecake Order Form</title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+</head>
+<body>
+    <header>
+        <!-- main class -->
+        <div class="main">
+            <!--logo of cheesecake class-->
+            <div class="logo">
+                <!--upload url of image of cheesecake-->
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Mondays_at_Il_Forno_-_Cheesecake_with_strawberry_sauce.jpg/800px-Mondays_at_Il_Forno_-_Cheesecake_with_strawberry_sauce.jpg">
+            </div>
+            <!--References to other pages-->
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <!--Title print of Cheesecake Order Form-->
+        <div class="title">
+            <h1>Cheesecake Order Form</h1>
+        </div>
+        <!--Cheesecake Class-->
+        <form id="form">
+            <div class="cheesecake">
+                <!--Printline of Quantity Topping-->
+                <h1 id="quantityTopping">Quantity Topping</h1>
+            <div class="button">
+                <!--Order button-->
+                <a id="Order" href="#" class="btn">Order</a>
+            </div>
+           
+            <!--radio input type Plain-->
+            <div>
+                <input type="radio" class="toppings" name="flavor" id="Plain" value="Plain">
+                <label for="Plain">Plain</label> <br>
+            </div>
+            <!--radio input type Cherry-->
+            <div>
+                <input type="radio" class="toppings" name="flavor" id="Cherry" value="Cherry">
+                <label for="Cherry">Cherry</label> <br>
+            </div>
+            <!--radio input type Chocolate-->
+            <div>
+                <input type="radio" class="toppings" name="flavor" id="Chocolate" value="Chocolate">
+                <label for="Chocolate">Chocolate</label> <br>
+            </div>
+            <table>
+                <tr>
+                    <td>
+                        <!--select input type Options-->
+                        <select name="drop-down-list" id="numOfCheesecakes">
+                            <option value="1" id="1">1</option>
+                            <option value="2" id="2">2</option>
+                            <option value="3" id="3">3</option>
+                            <option value="4" id="4">4</option>
+                            <option value="5" id="5">5</option>
+                            <option value="6" id="6">6</option>
+                            <option value="7" id="7">7</option>
+                            <option value="8" id="8">8</option>
+                            <option value="9" id="9">9</option>
+                            <option value="10" id="10">10</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        
+            <div>
+            <!--label type for Notes area-->
+            <label for="Notes:">Notes:</label>
+            </div>
+            <div>
+            <!--textarea type for Notes-->
+            <textarea id="notes" name="notes" rows"400" cols"5000"
+            placeholder="Enter any special instructions here"></textarea>
+            </div>
+            </div>
+        </form>
+        <div class="thankYouMessage">
+            <h2 id="thankYouMessage"><h1></h1> </h2>
+            <p id="demo"></p>
+        </div>
+    <div class="Total">
+        <!--Printout of Total Orders-->
+        <h1>Orders for</h1>
+        <ul>
+            <div>
+                <li> ∙ 11 cherry </li>
+            </div>
+            <div>
+                <li> ∙ 17 chocolate </li>
+            </div>
+            <div>
+                <li> ∙ 31 plain </li>
+            </div>
+        </ul>
+    </div>
+    <div class="wrapper">
+        <div class="logo">
+            <h2>Cheesecake</h2>
+        </div>
+        <div class="right-menu">
+            <button id="first" class="menu-button">Jan</button>
+            <div class="dropdown-menu">
+                
+                
+                <div class="vertical-menu"> 
+                    <a id="Jan" href="#">Jan</a>
+                    <a id="Feb" href="#">Feb</a>
+                    <a id="Mar" href="#">Mar</a>
+                    <a id="Apr" href="#">Apr</a>
+                    <a id="May" href="#">May</a>
+                    <a id="Jun" href="#">Jun</a>
+                    <a id="Jul" href="#">Jul</a>
+                    <a id="Aug" href="#">Aug</a>
+                    <a id="Sep" href="#">Sep</a>
+                    <a id="Oct" href="#">Oct</a>
+                    <a id="Nov" href="#">Nov</a>
+                    <a id="Dec" href="#">Dec</a> 
+                </div>
+            </div>
+        </div>
+    </div>
+    </header>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="javascripts/stuff.js"></script>
+
+</body>
+</html> 
