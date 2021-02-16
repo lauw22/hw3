@@ -1,4 +1,4 @@
-
+//William Lau
         var toppings = document.getElementById('quantityTopping')
         var quantity;
         var Notes;
